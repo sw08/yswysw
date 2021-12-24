@@ -1,16 +1,14 @@
-### Hi there 👋
+![HiThere](https://camo.githubusercontent.com/f5b6ae6839a281f177ecea00d3ddc7f83ef33b635ebfce9516d8a5fb57e19f4c/68747470733a2f2f63617073756c652d72656e6465722e76657263656c2e6170702f6170693f747970653d7761766526636f6c6f723d74696d654772616469656e74266865696768743d3330302673656374696f6e3d68656164657226746578743d4869253230546865726525323025463025394625393125384226666f6e7453697a653d3930)    
+![Profile](imgs/profile.png)
 
-<!--
-**sw08/sw08** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## yswysw
+- A unique student developer whose skill level is between beginner and intermediate, known as `yswysw`(or `건빵`, `아몬드`, etc...) in [Discord](https://discord.com/users/745848200195473490) (not anymore...), [Blog](https://blog.naver.com/lswja6866), and [Scratch](https://scratch.mit.edu/yswysw)(I don't do it anymore ~~maybe...?~~), etc.
+- Usually doing python and arduino
 
-Here are some ideas to get you started:
+#### My Top Language
+![Top Language](https://github-readme-stats.vercel.app/api/top-langs/?username=sw08&theme=tokyonight)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### My Stats
+![My Stats](https://github-readme-stats.vercel.app/api?username=sw08&theme=tokyonight)
+
+
