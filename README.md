@@ -2,7 +2,7 @@
 ![Profile](https://github.com/sw08/sw08/blob/main/profile.png)
 
 ## yswysw
-- A unique student developer whose skill level is between beginner and intermediate, known as `yswysw`(or `건빵`, `아몬드`, etc...) in [Discord](https://discord.com/users/745848200195473490) (not anymore...), [Blog](https://blog.naver.com/lswja6866), and [Scratch](https://scratch.mit.edu/yswysw)(I don't do it anymore ~~maybe...?~~), etc.
+- A unique student developer whose skill level is between beginner and intermediate, known as `yswysw`(or `건빵`, `아몬드`, etc...) in [Discord](https://discord.com/users/745848200195473490) (not anymore...), [Blog](https://blog.naver.com/lswja6866), [Youtube](https://www.youtube.com/channel/UCLzP2J6ZUba2p8Z9dJNdr5g), etc...
 - Usually doing python and arduino
 
 #### My Top Language
