@@ -9,4 +9,6 @@ body {
     font-family: 'D2Coding', monospace;
     text-decoration: none;
     text-align: center;
+    box-sizing: border-box;
+    display: flex;
 }
