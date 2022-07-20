@@ -13,10 +13,19 @@
         <style>
             body {
                 background-image: url('bg.jpg');
-                background-size: 100% 9000%;
+                background-repeat: no-repeat;
             }
         </style>
+        <script>
+            var size = {
+                width: window.innerWidth || document.body.clientWidth,
+                height: window.innerHeight || document.body.clientHeight
+            }
+            window.onload = () => {
+                document.getElementById('body').style.backgroundSize = size.width + "px " + size.height + 'px'
+            }
+        </script>
     </head>
-    <body>
+    <body id="body" onclick="windows.location.href='main.html'">
     </body>
 </html>
