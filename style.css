@@ -11,9 +11,14 @@
     font-style: normal;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Binggrae', sans-serif;
     text-align: center;
+    margin: 0%;
 }
 
 h1, h2, h3{
@@ -26,13 +31,18 @@ h1 {
 }
 
 h2 {
-    font-size: 50pt
+    font-size: 45pt;
 }
 
 h3 {
-    font-size: 35pt
+    font-size: 25pt;
 }
 
-a{
+a {
     text-decoration: none;
+}
+
+table {
+    border: 0px;
+    color: black;
 }

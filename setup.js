@@ -1,14 +1,14 @@
 window.onload = () => {
     var url
     var sources = {}
-    var source = document.getElementsByTagName('body')[0].innerHTML
+    var source = document.body.innerHTML
     var request = new XMLHttpRequest()
     function getHeader() {
         function editHTML() {
-            document.getElementsByTagName('body')[0].innerHTML = sources['header'] + '\n' + source + '\n' + sources['footer']
+            document.body.innerHTML = sources['header'] + '\n' + source + '\n' + sources['footer']
         }
         var request = new XMLHttpRequest()
-        url = 'https://yswysw.kro.kr/header.html'
+        url = 'header.html'
         request.open('GET', url, true);
         request.onload = function () {
             sources['header'] = request.responseText
@@ -16,11 +16,14 @@ window.onload = () => {
         request.onloadend = editHTML
         request.send();
     }
-    url = 'https://yswysw.kro.kr/footer.html'
+    url = 'footer.html'
     request.open('GET', url, true)
     request.onload = function () {
         sources['footer'] = request.responseText
     }
     request.onloadend = getHeader
     request.send();
+
+    nav = document.getElementsByClassName('nav')[0]
+    nav.clientHeight = (window.innerWidth || document.body.clientWidth) / 20
 }
