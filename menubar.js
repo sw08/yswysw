@@ -1,15 +1,22 @@
+
 window.onload = () => {
-    var result = null
+    var url
+    var sources = {}
+    var sources = {header: null, footer: null}
     var source = document.getElementsByTagName('body')[0].innerHTML
-    var xmlhttp = new XMLHttpRequest()
-    xmlhttp.open("GET", "header.html", false)
-    xmlhttp.send()
-    var header = xmlhttp.responseText
-    xmlhttp.open("GET", "footer.html", false)
-    xmlhttp.send()
-    var footer = xmlhttp.responseText
-    // var fr = new FileReader()
-    // var readText = fr.readAsText(new File(["header.html"], 'header.html'))
-    // console.log(readText)
-    source = source.replace('<body>', '<body>\n' + header + '\n').replace('</body>', '\n' + footer + '\n</body>')
+    var request = new XMLHttpRequest()
+    url = 'https://yswysw.kro.kr/footer.html'
+    request.open('GET', url, true)
+    request.onload = function () {
+        sources['footer'] = request2.responseText
+    }
+    request.send();
+    var request2 = new XMLHttpRequest()
+    url = 'https://yswysw.kro.kr/header.html'
+    request2.open('GET', url, true);
+    request2.onload = function () {
+        sources['header'] = request2.responseText
+    }
+    request2.send();
+    document.getElementsByTagName('body')[0].innerHTML = sources.header + '\n' + source + '\n' + sources.footer     
 }
