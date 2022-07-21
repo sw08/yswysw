@@ -5,7 +5,7 @@ window.onload = () => {
     var request = new XMLHttpRequest()
     function getHeader() {
         function editHTML() {
-            document.body.innerHTML = sources['header'] + '\n' + source + '\n' + sources['footer']
+            document.body.innerHTML = sources['header'] + "<div id='wrapper'>\n" + source + "\n</div>\n" + sources['footer']
         }
         var request = new XMLHttpRequest()
         url = 'header.html'
@@ -23,7 +23,4 @@ window.onload = () => {
     }
     request.onloadend = getHeader
     request.send();
-
-    nav = document.getElementsByClassName('nav')[0]
-    nav.clientHeight = (window.innerWidth || document.body.clientWidth) / 20
 }

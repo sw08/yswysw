@@ -11,7 +11,7 @@
     font-style: normal;
 }
 
-html {
+html, body {
     height: 100%;
 }
 
@@ -19,6 +19,7 @@ body {
     font-family: 'Binggrae', sans-serif;
     text-align: center;
     margin: 0%;
+    background-color: #00008B;
 }
 
 h1, h2, h3{
@@ -44,5 +45,17 @@ a {
 
 table {
     border: 0px;
-    color: black;
+    color: #00D9ED;
+}
+
+#wrapper {
+    min-height: 60%;
+    padding-bottom: 5%;
+    position: relative
+}
+
+#footer {
+    height: 5%;
+    position: absolute;
+    bottom: 0;
 }
