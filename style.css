@@ -11,26 +11,32 @@
     font-style: normal;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Binggrae', sans-serif;
     text-align: center;
     margin: 0%;
     background-color: #00008B;
     color: #00D9ED;
+    font-size: 20pt;
 }
 
 h1, h2, h3{
     font-family: 'Binggrae-Bold', sans-serif;
     text-align: center;
-    margin: 10px;
+    margin: 30px;
+    display: inline;
 }
 
 h1 {
-    font-size: 80pt;
+    font-size: 65pt;
 }
 
 h2 {
-    font-size: 60pt;
+    font-size: 50pt;
 }
 
 h3 {
@@ -52,4 +58,17 @@ th {
 
 #wrapper {
     min-height: 100%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#container {
+    vertical-align: middle;
+    text-align: center;
+}
+
+p {
+    display: inline;
 }

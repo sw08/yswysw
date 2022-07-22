@@ -6,12 +6,36 @@
         <meta property="og:type" content="website">
         <meta property="og:title" content="Home | yswysw">
         <meta property="og:description" content="yswysw's homepage">
-        <meta property="og:image" content="https://raw.githubusercontent.com/sw08/sw08/main/profile.png">
+        <meta property="og:image" content="/profile.png">
         <meta property="og:url" content="/index.html"/>
-        <link rel="shortcut icon" href="https://raw.githubusercontent.com/sw08/sw08/main/profile.png">
-        <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="setup.js"></script>
+        <link rel="shortcut icon" href="/profile.png">
+        <link rel="stylesheet" href="/style.css">
+        <script type="text/javascript" src="/setup.js"></script>
+        <script>
+            window.addEventListener('load', function() {
+                setTimeout(function() {
+                    document.getElementById('content').style.display = '';
+                    document.getElementById('welcome').style.display = 'none';
+                }, 3000);
+            });
+        </script>
     </head>
     <body>
+        <h1 id="welcome" style="font-size: 100pt;"><br>Welcome!</h1>
+        <div id="content" style="display:none">
+            <div id='miniprofile' style='background-color: #05105C;margin:75px auto;width: 40%;border-radius: 5%;'>
+                <div style='padding: 10px'>
+                    <img src="profile.png" style="display: inline;">
+                    <h2>yswysw</h2><br>
+                    <div>
+                        <p>
+                            - Python Developer<br>
+                            - Youtube Creator<br>
+                            - 15-Year-Old Student
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
