@@ -11,30 +11,67 @@
         <link rel="shortcut icon" href="/profile.png">
         <link rel="stylesheet" href="/style.css">
         <script type="text/javascript" src="/setup.js"></script>
-        <script>
-            window.addEventListener('load', function() {
-                setTimeout(function() {
-                    document.getElementById('content').style.display = '';
-                    document.getElementById('welcome').style.display = 'none';
-                }, 3000);
-            });
-        </script>
     </head>
     <body>
-        <h1 id="welcome" style="font-size: 100pt;"><br>Welcome!</h1>
-        <div id="content" style="display:none">
-            <div id='miniprofile' style='background-color: #05105C;margin:75px auto;width: 40%;border-radius: 5%;'>
-                <div style='padding: 10px'>
+        <a>
+            <h1 id="welcome" style="font-size: 100pt;"><br>Welcome!<br></h1><h2>Good To See You</h2><h1><br><br></h1>
+        </a>
+        <div id="content">
+            <div style="background-color: #00D9ED;height: 1px;margin:50px auto;">
+            </div>
+            <h1>Mini Profile</h1>
+            <div id='profile' style='background-color: #05105C;margin:75px auto;width: 60%;border-radius: 5%;'>
+                <div id="shortInfo" style='padding: 10px'>
                     <img src="profile.png" style="display: inline;">
-                    <h2>yswysw</h2><br>
-                    <div>
-                        <p>
-                            - Python Developer<br>
-                            - Youtube Creator<br>
-                            - 15-Year-Old Student
-                        </p>
-                    </div>
+                    <h2>Seungwoo Yi</h2><br>
+                    <p>
+                        - 15 year old student python dev<br>
+                        - youtube creator (<a href='/youtube.html'><b>잡다한 영상공작소</b></a>)<br>
+                        - use 'yswysw', 'sw08', '아몬드', etc for nickname
+                    </p>
                 </div>
+            </div>
+            <div style="background-color: #00D9ED;height: 1px;margin:50px auto;">
+            </div>
+            <h1>My Projects</h1>
+            <div id="project">
+                <div id="orora" style='background-color: #05105C;margin:75px auto;width: 60%;border-radius: 5%;padding:10px'>
+                    <a href="https://orora.studio">
+                        <h2>Studio Orora</h2>
+                        <img src="/orora.png" width="128px" style="border-radius: 30px;"><br>
+                        A discord bot developer's team composed of student devs.<br>
+                        Made by me, but now I've left.
+                    </a>
+                </div>
+                <div id="memebot" style='background-color: #05105C;margin:75px auto;width: 60%;border-radius: 5%;padding:10px'>
+                    <a href="https://github.com/project-memebot/meme-bot">
+                        <h2>Meme Bot</h2>
+                        <img src="/memebot.png" width="128px" style="border-radius: 45px"><br>
+                        The biggest bot I've ever made. Officially verified by discord.<br>
+                        Now being developed by my friend(I don't), <a href='https://devht.tech'>Happytree Samsung</a>.
+                    </a>
+                </div>
+                <div id="thinkingbot" style='background-color: #05105C;margin:75px auto;width: 60%;border-radius: 5%;padding:10px'>
+                    <a href="https://github.com/sw08/thinkingbot">
+                        <h2>ThinkingBot</h2>
+                        <img src="/thinkingbot.png" width="128px" style="border-radius: 30px;"><br>
+                        My first bot. Later became ThinkingBot-v2.<br>
+                        Developement discontinued due to hacking. 
+                    </a>
+                </div>
+            </div>
+            <div style="background-color: #00D9ED;height: 1px;margin:50px auto;">
+            </div>
+            <h1>Contact Me</h1>
+            <div id="contact" style='background-color: #05105C;margin:75px auto;width: 60%;border-radius: 5%;padding:10px'>
+                - Email 1: yswysw0518@gmail.com<br>
+                - Email 2: lswja6866@gmail.com<br>
+                - Github: <a href="https://github.com/sw08">sw08</a><br>
+                - Discord: <a href="https://discord.com/users/745848200195473490">yswysw#3014</a><br>
+                - Youtube: <a href="https://youtube.yswysw.kro.kr">잡다한 영상공작소</a><br>
+            </div>
+            <div style="height: 100px;vertical-align: bottom;text-align: right;margin-right: 50px;">
+                <br><a href="#">Top</a>
             </div>
         </div>
     </body>

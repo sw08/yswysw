@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50pt;
+    font-size: 45pt;
 }
 
 h3 {
@@ -45,6 +45,7 @@ h3 {
 
 a {
     text-decoration: none;
+    color: #00D9ED;
 }
 
 table {
@@ -71,4 +72,8 @@ img {
 
 p {
     display: inline;
+}
+
+::-webkit-scrollbar{
+    display:none;
 }
