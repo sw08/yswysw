@@ -11,28 +11,26 @@
     font-style: normal;
 }
 
-html, body {
-    height: 100%;
-}
-
 body {
     font-family: 'Binggrae', sans-serif;
     text-align: center;
     margin: 0%;
     background-color: #00008B;
+    color: #00D9ED;
 }
 
 h1, h2, h3{
     font-family: 'Binggrae-Bold', sans-serif;
     text-align: center;
+    margin: 10px;
 }
 
 h1 {
-    font-size: 60pt;
+    font-size: 80pt;
 }
 
 h2 {
-    font-size: 45pt;
+    font-size: 60pt;
 }
 
 h3 {
@@ -45,17 +43,13 @@ a {
 
 table {
     border: 0px;
-    color: #00D9ED;
+}
+
+th {
+    padding: 0;
+    margin: 10px;
 }
 
 #wrapper {
-    min-height: 60%;
-    padding-bottom: 5%;
-    position: relative
-}
-
-#footer {
-    height: 5%;
-    position: absolute;
-    bottom: 0;
+    min-height: 100%;
 }

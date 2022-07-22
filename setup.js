@@ -5,7 +5,7 @@ window.onload = () => {
     var request = new XMLHttpRequest()
     function getHeader() {
         function editHTML() {
-            document.body.innerHTML = sources['header'] + "<div id='wrapper'>\n" + source + "\n</div>\n" + sources['footer']
+            document.body.innerHTML = "<div id='wrapper'>\n" + sources['header'] + "\n<div id='container'>\n" + source + "</div>\n</div>"
         }
         var request = new XMLHttpRequest()
         url = 'header.html'
