@@ -46,6 +46,10 @@ h1 {
     font-size: 65pt;
 }
 
+.title {
+    border: 75px auto
+}
+
 h2 {
     font-size: 45pt;
 }
@@ -74,6 +78,7 @@ th {
 
 img {
     vertical-align: middle;
+    margin:75px auto;
 }
 
 #container {
