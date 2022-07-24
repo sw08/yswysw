@@ -107,3 +107,8 @@ p {
     height: 1px;
     margin: 50px auto;
 }
+
+.projectIcon {
+    margin: 20px;
+    border-radius: 45px;
+}
