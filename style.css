@@ -101,3 +101,9 @@ p {
     padding: 30px;
     width: 60%;
 }
+
+.divisionLine {
+    background-color: #00D9ED;
+    height: 1px;
+    margin: 50px auto;
+}
